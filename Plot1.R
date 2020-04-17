@@ -21,5 +21,5 @@ data2 <- filter(data, data$Date == "1/2/2007" | data$Date == "2/2/2007")
 hist(as.numeric(data2$Global_active_power), ylim = c(0,1200), col = 'red', main = "Global Active Power", xlab = "Global Active Power(kilowatts)")
 
 # copying the plot
-dev.copy(png, filename = 'plot.png', width=480, height=480)
+dev.copy(png, filename = 'plot1.png', width=480, height=480)
 dev.off()
